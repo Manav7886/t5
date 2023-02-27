@@ -1,0 +1,61 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#tabs").tabs();
+      });
+    </script>
+
+    <style>
+      #tabs {
+        font-size: 14px;
+      }
+      body{
+        background-color:aquamarine;
+      }
+    </style>
+    <title>Tutorial 5.1 - (22SOECE13032)</title>
+  </head>
+  <body>
+    <div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+      <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+        <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab-1" aria-labelledby="ui-id-1" aria-selected="true"><a href="#tab-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">MERN Technology</a></li>
+        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-2" aria-labelledby="ui-id-2" aria-selected="false"><a href="#tab-2" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">Data Science</a></li>
+        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tab-3" aria-labelledby="ui-id-3" aria-selected="false"><a href="#tab-3" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">Server Side Scripting Laguage</a></li>
+      </ul>
+      <div id="tab-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false">
+        <h4>Subjects:</h4>
+        <ol>
+          <li>MongoDB - NoSQL Database</li>
+          <li>ExpressJS - NodeJS Web Framework</li>
+          <li>ReactJS - Client-Side JavaScript Library</li>
+          <li>NodeJS - JavaScript Web Server</li>
+        </ol>
+      </div>
+      <div id="tab-2" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+        <p>
+          Data science combines math and statistics, specialized programming,
+          advanced analytics, artificial intelligence (AI), and machine learning
+          with specific subject matter expertise to uncover actionable insights
+          hidden in an organization's data. These insights can be used to guide
+          decision making and strategic planning.
+        </p>
+      </div>
+      <div id="tab-3" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+        <h4>Languages:</h4>
+        <ol>
+          <li>Net.Data</li>
+          <li>PHP</li>
+          <li>Python</li>
+          <li>NodeJS</li>
+        </ol>
+      </div>
+    </div>
+  
+
+</body></html>
